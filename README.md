@@ -11,15 +11,16 @@ Experiments
 
 ## Run
 
-mkdir -p results/output_ep100_z100
-main.py --dataset folder --dataroot data/ --cuda --niter 100 --outf results/output_ep100_z100
+````
+$ mkdir -p results/output_ep100_z100
+$ python main.py --dataset folder --dataroot data/ --cuda --niter 100 --outf results/output_ep100_z100
 
-mkdir -p results/output_ep200_z100
-main.py --dataset folder --dataroot data/ --cuda --niter 200 --outf results/output_ep200_z100
+$ mkdir -p results/output_ep200_z100
+$ main.py --dataset folder --dataroot data/ --cuda --niter 200 --outf results/output_ep200_z100
 
-mkdir -p results/output_ep50_z200
-main.py --dataset folder --dataroot data/ --cuda --niter 50 -nz 200 --outf results/output_ep50_z200
-
+$ mkdir -p results/output_ep50_z200
+$ main.py --dataset folder --dataroot data/ --cuda --niter 50 -nz 200 --outf results/output_ep50_z200
+````
 
 
 ## Usage
